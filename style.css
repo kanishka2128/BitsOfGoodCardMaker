@@ -1,0 +1,55 @@
+
+
+body {
+  margin: 0;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 1rem;
+  color: black;
+}
+
+.card {
+  background: #fff;
+  max-width: 480px;
+  width: 100%;
+  border-radius: 16px;
+  padding: 2rem 2.5rem;
+  box-shadow:
+    0 8px 20px rgba(0, 0, 0, 0.12);
+  transition: box-shadow 0.3s ease;
+}
+
+h1 {
+  margin: 0 0 1rem 0;
+  font-weight: 700;
+  font-size: 2.25rem;
+  color: darkblue;
+  text-align: center;
+}
+
+.card-content p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  color: grey;
+}
+
+.links {
+  display: flex;
+  gap: 1.25rem;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
+.links a {
+  text-decoration: none;
+  background-color: #1976d2;
+  color: white;
+  padding: 0.6rem 1.4rem;
+  border-radius: 25px;
+}
+
+
